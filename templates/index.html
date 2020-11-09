@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Online Price Predictor
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+          <style>
+
+              div{
+                text-align: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+              }
+            body {
+                font-family: 'Open Sans', sans-serif;
+                background-color: #c7eff9 ;
+                text-align: center;
+            }
+            fieldset {
+            display:inline-block;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #fdfdfd;
+            text-align: center;
+            height:400px;
+            width:300px;
+            border-style: inset;
+            padding: 12px;
+            }
+            #button{
+    	        background-color: #003350;
+                font-family: 'Open Sans', sans-serif;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                margin: 4px 2px;
+             cursor: pointer;
+            }
+            #footer
+            {
+                font-family: 'Open Sans', sans-serif;
+                background-color: #003350;
+                color:#fdfdfd;
+              
+            }
+            </style>
+
+    </head>
+    <div>
+       
+        <img src="static/images/shopify-store-page-1.jpg" alt="Welcome to our Store!" width="1500" height="375">
+ 
+    <h1><centre>
+        Online Price Prediction
+    </centre>
+    </h1>
+    </div>
+    <body>
+
+        <form action="." method="POST">
+            <fieldset >
+                <br>
+                <br>
+            <table>
+
+                <tr>
+                    <td>
+                        Training ID
+                    </td>
+                    <td>
+                        <input type="number" name="train_id" placeholder="37763" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        <input type="text" name="name" placeholder="New vs pi k body mists" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Item Condition ID
+                    </td>
+                    <td>
+                        <select name="item_condition_id" required>
+                            <option value="1">Very Good</option>
+                            <option value="2">Good</option>
+                            <option value="3">Normal</option>
+                            <option value="4">Bad</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Category 
+                    </td>
+                    <td>
+                        <input type="text" name="category" placeholder="Beauty/Fragrance/Women" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Brand
+                    </td>
+                    <td>
+                        <input type="text" name="brand" placeholder="Victoria's Secret" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Shipping
+                    </td>
+                    <td>
+                        
+                        <input type="radio" name="shipping" value="1">Shipping Excluded<br>
+                        <input type="radio" name="shipping" value="0">Shipping Included
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        <input type="text" name="item_description" placeholder="No description yet" value="No description yet" size="50">
+                    </td>
+                </tr>
+
+            </table>
+
+            <br>
+
+            <input id = "button" type="submit" value="Submit">
+        </fieldset>
+        </form>   
+        <br>
+        <br>
+
+    <div id="footer">
+        <br>
+        <h3>
+            Thank You for Your Visit!
+        </h3>
+        <br>
+        <p>
+            Contact Info: 9837545481
+            <br>
+            Email Address: shop@gmai.com
+            <br>
+            <br>
+            <br>
+
+        </p>
+    </div>
+    </body>
+</html>
